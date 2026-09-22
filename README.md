@@ -118,4 +118,4 @@ Solution used was compute class weight from scikit-learn with balanced mode. Thi
 | Strong classes | Normal, Anxiety |
 | Challenging classes | Personality disorder, Depression |
 
-Accuracy improves significantly with 15 to 20 epochs. Semantic overlap between Depression and Suicidal vocabulary is a known challenge in this dataset.
+Accuracy improves significantly with 15 to 20 epochs. Semantic overlap between Depression and Suicidal vocabulary is a known challenge in this dataset..
