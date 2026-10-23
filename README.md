@@ -1,3 +1,13 @@
+## 🚀 Live Demo
+
+Try the deployed application here:
+
+👉 **[Launch Mental Health Analyzer](https://mental-health-analyzer-npuvftepgiahacgakwkynq.streamlit.app/)**
+
+Enter your text to receive a predicted category, model confidence score, and general wellness tips.
+
+*Note: This is an experimental machine-learning project for educational purposes only. It is not a medical diagnostic tool and should not replace professional mental-health support.*
+
 # Mental Health Text Analyzer
 
 A deep learning NLP system that classifies mental health-related text into 7 categories and provides personalized wellness tips based on the detected condition.
