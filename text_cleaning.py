@@ -1,9 +1,3 @@
-import nltk
-
-for resource in ["stopwords", "punkt", "punkt_tab", "wordnet", "omw-1.4"]:
-    nltk.download(resource, quiet=True)
-
-
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 lemmatizer=WordNetLemmatizer() 
