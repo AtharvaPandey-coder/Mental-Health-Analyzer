@@ -91,7 +91,7 @@ Class_INFO={
 ## Now loading the model
 @st.cache_resource
 def load_artifact():
-    model = load_model('bidirectional_lstm.h5')
+    model = load_model('Bidirectional_lstm.h5')
     tokenizer = pickle.load(open('Tokenizer.pkl','rb'))
 #df=pickle.load(open('cleaned_df.pkl','rb'))
     le=pickle.load(open('LabelEncoder.pkl','rb'))
