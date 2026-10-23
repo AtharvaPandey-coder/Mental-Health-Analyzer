@@ -116,12 +116,15 @@ with st.sidebar:
 st.title('Mental health text Analyzer')
 st.write('Share your feelings and Thoughts')
 
+
 try:
-    model,tokenizer,le=load_artifact()
-    model_loaded=True
+    model, tokenizer, le = load_artifact()
+    model_loaded = True
 except Exception as e:
-    model_loaded=False
-    st.error('Model Not found')
+    model_loaded = False
+    st.error("Model loading failed. Actual error:")
+    st.exception(e)
+
 
 user_text=st.text_area('Hou are you Feeling?',placeholder=' Example:I am feeling Happy Today')
 if st.button('Analyze'):
